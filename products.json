@@ -1,0 +1,179 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Laptop Gamer ROG Strix G16 (2025) G614",
+        "price": 35999.99,
+        "category": "tecnologia",
+        "image": "imagenes/laptop.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Red magic 10 pro",
+        "price": 18999.99,
+        "category": "celulares",
+        "image": "imagenes/Red_magic.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Playera Básica",
+        "price": 249.99,
+        "category": "ropa",
+        "image": "imagenes/playera.jpg"
+      },
+      {
+        "id": 4,
+        "name": "REDMAGIC Astra Gaming Tablet 12G+256G Eclipse (EU)",
+        "price": 11999.99,
+        "category": "tecnologia",
+        "image": "imagenes/tablet_red_magic.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Jeans Clásicos",
+        "price": 799.99,
+        "category": "ropa",
+        "image": "imagenes/jeans.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Samsung Galaxy A56",
+        "price": 8499.99,
+        "category": "celulares",
+        "image": "imagenes/samsung.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Mouse Logitech Pebble 2 M350s",
+        "price": 499.99,
+        "category": "tecnologia",
+        "image": "imagenes/mouse.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Sudadera Deportiva",
+        "price": 699.99,
+        "category": "ropa",
+        "image": "imagenes/sudadera.jpg"
+      },
+      {
+        "id": 9,
+        "name": "GeForce RTX 5090",
+        "price": 35999.99,
+        "category": "tecnologia",
+        "image": "imagenes/RTX_5090.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Logitech G PRO X TKL LIGHTSPEED",
+        "price": 3499.99,
+        "category": "tecnologia",
+        "image": "imagenes/teclado_mecanico.jpg"
+      },
+      {
+        "id": 11,
+        "name": "SteelSeries Apex Pro TKL",
+        "price": 4299.99,
+        "category": "tecnologia",
+        "image": "imagenes/apex_pro.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Samsung Galaxy S25 Ultra",
+        "price": 32999.99,
+        "category": "celulares",
+        "image": "imagenes/Samsung_Galaxy_S25_Ultra.jpg"
+      },
+      {
+        "id": 13,
+        "name": "iPhone 17 Pro Max",
+        "price": 44999.99,
+        "category": "celulares",
+        "image": "imagenes/iPhone_17_Pro_Max.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Google Pixel 9a",
+        "price": 9999.99,
+        "category": "celulares",
+        "image": "imagenes/Google_Pixel_9a.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Moto G86",
+        "price": 6999.99,
+        "category":"celulares",
+        "image": "imagenes/Moto_G86.jpg"
+      },
+      {
+        "id": 16,
+        "name": "AMD Ryzen 9 X3D",
+        "price": 12499.99,
+        "category": "tecnologia",
+        "image": "imagenes/AMD_Ryzen_9_X3D.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Kingston Memoria Ram Fury Beast DDR5",
+        "price": 2899.99,
+        "category": "tecnologia",
+        "image": "imagenes/Kingston_Memoria_Ram_Fury_Beast_DDR5.jpg"
+      },
+      {
+        "id": 18,
+        "name": "kc3000 pcie 4.0 nvme m 2 ssd 2tb",
+        "price": 4299.99,
+        "category": "tecnologia",
+        "image": "imagenes/kc3000_pcie_4.0_nvme_m_2_ssd_2tb.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Asus Rog crosshair x870e extreme",
+        "price": 18999.99,
+        "category": "tecnologia",
+        "image": "imagenes/asus_rog_crosshair_x870e_extreme.jpg"
+      },
+      {
+        "id": 20,
+        "name": "ASUS ROG Thor 1000P2 Gaming",
+        "price": 6999.99,
+        "category": "tecnologia",
+        "image": "imagenes/ASUS_ROG_Thor_1000P2_Gaming.jpg"
+      },
+      {
+        "id": 21,
+        "name": "ASUS ROG Ryujin III 360 ARGB",
+        "price": 8999.99,
+        "category": "tecnologia",
+        "image": "imagenes/ASUS_ROG_Ryujin_III_360_ARGB.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Corsair 4000D Airflow",
+        "price": 2499.99,
+        "category": "tecnologia",
+        "image": "imagenes/Corsair_5000D_Airflow.jpg"
+      },
+      {
+        "id": 23,
+        "name": "SteelSeries QcK Heavy",
+        "price": 899.99,
+        "category": "tecnologia",
+        "image": "imagenes/SteelSeries_QcK_Heavy.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Razer Viper V3 Pro",
+        "price": 3299.99,
+        "category": "tecnologia",
+        "image": "imagenes/Razer_Viper_V3_Pro.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Asus ROG Swift OLED PG32UCDP",
+        "price": 34999.99,
+        "category": "tecnologia",
+        "image": "imagenes/Asus_ROG_Swift_OLED_PG32UCDP.jpg"
+      }
+    ]
+}

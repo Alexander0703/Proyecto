@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Tienda Demo</div>
+        
+        <div class="search-filter-container">
+            <div class="categories">
+                <button class="category-btn active" data-category="all">Todo</button>
+                <button class="category-btn" data-category="tecnologia">Tecnología</button>
+                <button class="category-btn" data-category="ropa">Ropa</button>
+                <button class="category-btn" data-category="celulares">Celulares</button>
+            </div>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Buscar productos...">
+            </div>
+        </div>
+        <div class="user-cart-container">
+            <div class="user-info">
+                <div class="user-avatar" id="user-avatar">?</div>
+                <span id="user-name">Iniciar Sesión</span>
+            </div>
+            <div class="cart-icon" id="cart-icon">
+                <span>🛒</span>
+                <span class="cart-count" id="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <div class="products-grid" id="products-grid">
+        </div>
+    </main>
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h2>Tu Carrito</h2>
+            <button class="close-cart" id="close-cart">×</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+        </div>
+        <div class="cart-summary">
+            <div class="subtotal">
+                <span>Subtotal:</span>
+                <span id="cart-subtotal">$0.00</span>
+            </div>
+            <div class="cart-actions">
+                <button class="checkout-btn" id="checkout-btn">Pagar</button>
+                <button class="empty-cart-btn" id="empty-cart-btn">Vaciar Carrito</button>
+                <button class="cancel-purchase-btn" id="cancel-sidebar-btn">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <!-- Login Modal -->
+    <div class="login-modal" id="login-modal">
+        <div class="login-form" id="login-form-container">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <h2 class="form-title" id="form-title">Iniciar Sesión</h2>
+                <button class="close-modal" onclick="closeModals()" style="background: none; border: none; color: var(--text-light); font-size: 1.8rem; cursor: pointer; padding: 0; line-height: 1;">×</button>
+            </div>
+            <form id="login-form" class="active-form">
+                <div class="form-group">
+                    <label class="form-label" for="login-username">Usuario</label>
+                    <input type="text" class="form-input" id="login-username" placeholder="Ingresa tu usuario" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="login-password">Contraseña</label>
+                    <input type="password" class="form-input" id="login-password" placeholder="Ingresa tu contraseña" required>
+                </div>
+                <button type="submit" class="form-submit">Ingresar</button>
+            </form>
+            <form id="register-form" class="hidden-form">
+                <div class="form-group">
+                    <label class="form-label" for="reg-username">Usuario</label>
+                    <input type="text" class="form-input" id="reg-username" placeholder="Crea un nombre de usuario" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="reg-email">Email</label>
+                    <input type="email" class="form-input" id="reg-email" placeholder="tu@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="reg-password">Contraseña</label>
+                    <input type="password" class="form-input" id="reg-password" placeholder="Crea una contraseña" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="reg-confirm-password">Confirmar Contraseña</label>
+                    <input type="password" class="form-input" id="reg-confirm-password" placeholder="Repite tu contraseña" required>
+                </div>
+                <button type="submit" class="form-submit">Registrarse</button>
+            </form>
+            
+            <div class="form-footer">
+                <span id="form-footer-text">
+                    ¿No tienes cuenta? <span class="form-link" id="toggle-form-link">Regístrate aquí</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+    <!-- Footer -->
+    <footer>
+        <p>Proyecto demo para clase — HTML + CSS + JS simples.</p>
+        <p>Sistema de usuarios con almacenamiento JSON</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
